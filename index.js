@@ -1,10 +1,10 @@
 function reverseWordsRevised(string) {
-  const wordsArr = string.split(' '); // correct
+  const wordsArr = string.split(' '); 
   let reverseWordsArr = [];
 
   wordsArr.forEach(word => {
     let reversedWord = '';
-    for (let i = word.length-1; i>=0; i--) {
+    for (let i = word.length - 1; i >= 0; i--) {
       reversedWord += word[i];
     }
     reverseWordsArr.push(reversedWord);
